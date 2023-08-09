@@ -28,4 +28,6 @@ public class Producto {
     @ManyToOne
     @JoinColumn(name = "id_categoria", insertable = false, updatable = false) //no se va a hacer el crud de categoria. Solo realiza la relacion de categoria y producto
     private Categoria categoria;
+
+
 }
